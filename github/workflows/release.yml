@@ -47,6 +47,7 @@ jobs:
         tags: |
           ghcr.io/jenkins-x/serverless-ci:latest
           ghcr.io/jenkins-x/serverless-ci:${{ steps.prep.outputs.version }}
+
 "on":
   push:
     branches:
