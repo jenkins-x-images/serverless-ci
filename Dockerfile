@@ -35,3 +35,6 @@ RUN npm config set user root && \
 RUN aws --version && \
     serverless --version && \
     jq --version
+
+
+LABEL org.opencontainers.image.source https://github.com/jenkins-x-images/serverless-ci
